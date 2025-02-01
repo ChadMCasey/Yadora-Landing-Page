@@ -40,7 +40,7 @@ export default {
       },
     },
     fontFamily: {
-      sans: ["Poppins"],
+      sans: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],
