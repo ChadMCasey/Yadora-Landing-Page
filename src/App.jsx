@@ -1,4 +1,5 @@
 // sections
+import Page from "../src/components/sections/Page";
 import Header from "../src/components/sections/Header";
 import Navigation from "../src/components/sections/Navigation";
 import Hero from "../src/components/sections/Hero";
@@ -20,7 +21,7 @@ import { ModalContextProvider } from "./contexts/ModalContext";
 function App() {
   return (
     <ModalContextProvider>
-      <div className="w-full">
+      <Page>
         <Header>
           <Navigation />
           <Hero />
@@ -40,7 +41,7 @@ function App() {
         <Modal modalName="more-information">
           <MoreInformation />
         </Modal>
-      </div>
+      </Page>
     </ModalContextProvider>
   );
 }
