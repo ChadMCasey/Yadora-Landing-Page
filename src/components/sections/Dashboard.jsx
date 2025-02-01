@@ -1,4 +1,4 @@
-import dashboardImage from "../../assets/dashboard.png";
+import dashboardImage from "../../assets/dashboard.webp";
 
 const Dashboard = () => {
   return (
