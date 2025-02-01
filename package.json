@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --open",
-    "deploy": "npm run build && npm run preview"
+    "deploy": "vite build && vite preview --open"
   },
   "dependencies": {
     "react": "^18.3.1",
