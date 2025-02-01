@@ -1,9 +1,13 @@
 import React from "react";
 
-const Toggle = () => {
+const Toggle = ({ handleToggle }) => {
   return (
-    <label className="block relative justify-between bg-primary rounded-xl w-20 h-10">
-      <input type="checkbox" className="absolute opacity-0 w-0 h-0 peer" />
+    <label className="block relative justify-between bg-primary-500 rounded-xl w-20 h-10 hover:cursor-pointer">
+      <input
+        type="checkbox"
+        className="absolute opacity-0 w-0 h-0 peer"
+        onChange={handleToggle}
+      />
       <span
         className={`abosolute before:top-1 before:left-1 before:w-[36px] before:absolute 
                   before:bg-white before:rounded-[9px] before:h-8 before:transition-all 
