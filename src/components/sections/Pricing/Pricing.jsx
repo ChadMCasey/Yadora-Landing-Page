@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import Toggle from "../UI/Toggle";
+import Toggle from "../../UI/Toggle";
 import PricingCard from "./PricingCard";
-import { pricingCards } from "../../utils/constants";
+import { pricingCards } from "../../../utils/constants";
 
 function Pricing() {
   const [paymentPlan, setPaymentPlan] = useState("monthly");
