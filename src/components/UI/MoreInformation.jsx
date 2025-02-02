@@ -3,7 +3,7 @@ import { useState } from "react";
 import { UseModalContext } from "../../contexts/ModalContext";
 import Dots from "../../assets/tweleve-dots.svg";
 
-const MoreInformation = () => {
+function MoreInformation() {
   const { setCurrentModal } = UseModalContext();
 
   const [inputs, setInputs] = useState({
@@ -64,6 +64,6 @@ const MoreInformation = () => {
       </div>
     </>
   );
-};
+}
 
 export default MoreInformation;

@@ -1,6 +1,6 @@
 import { TfiQuoteLeft } from "react-icons/tfi";
 
-const Testimonial = ({ testimonial }) => {
+function Testimonial({ testimonial }) {
   return (
     <figure className="inline-block bg-white-shade mx-2 lg:mx-4 px-6 lg:px-8 py-6 lg:py-8 rounded-xl w-96">
       <blockquote className="text-wrap">
@@ -31,6 +31,6 @@ const Testimonial = ({ testimonial }) => {
       </blockquote>
     </figure>
   );
-};
+}
 
 export default Testimonial;

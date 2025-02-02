@@ -1,7 +1,7 @@
 import Testimonial from "./Testimonial";
 import { testimonials } from "../../utils/constants";
 
-const Testimonials = () => {
+function Testimonials() {
   return (
     <section className="m-auto py-12 sm:py-16 xl:py-24 max-w-[90rem]">
       <h2 className="px-4 sm:px-8 md:px-16 xl:px-24 pb-12 sm:pb-14 md:pb-16 font-bold text-[2rem]/[2.5rem] text-primary-500 sm:text-4xl md:text-5xl xl:text-[3.5rem]/[4rem] tracking-tight">
@@ -47,6 +47,6 @@ const Testimonials = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Testimonials;

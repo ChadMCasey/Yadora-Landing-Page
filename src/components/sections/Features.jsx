@@ -1,6 +1,6 @@
 import { features } from "../../utils/constants";
 
-const Features = () => {
+function Features() {
   return (
     <section className="m-auto px-4 sm:px-8 md:px-16 xl:px-24 pt-14 sm:pt-20 md:pt-32 pb-16 md:pb-24 max-w-[90rem]">
       <div className="gap-y-16 md:gap-y-24 grid lg:grid-cols-2">
@@ -39,6 +39,6 @@ const Features = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Features;

@@ -1,6 +1,6 @@
 import { UseModalContext } from "../../contexts/ModalContext";
 
-const CTA = () => {
+function CTA() {
   const { setCurrentModal } = UseModalContext();
 
   return (
@@ -27,6 +27,6 @@ const CTA = () => {
       </div>
     </section>
   );
-};
+}
 
 export default CTA;
