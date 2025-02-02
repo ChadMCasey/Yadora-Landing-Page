@@ -1,6 +1,6 @@
 import Yadora from "../../../assets/logo.svg";
 import { links } from "../../../utils/constants";
-import hamburger from "../../../assets/hamburger.svg";
+import Hamurger from "./Hamurger";
 
 function Navigation() {
   return (
@@ -40,14 +40,7 @@ function Navigation() {
         </button>
       </div>
 
-      {/* HAMBURGER */}
-      <button className="lg:hidden">
-        <img
-          src={hamburger}
-          alt="Hamburger menu icon"
-          className="w-6 h-6 transition-all duration-200 hover:rotate-90"
-        />
-      </button>
+      <Hamurger />
     </section>
   );
 }
