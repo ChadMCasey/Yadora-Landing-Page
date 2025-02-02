@@ -1,6 +1,6 @@
-import Yadora from "../../assets/logo.svg";
-import { links } from "../../utils/constants";
-import hamburger from "../../assets/hamburger.svg";
+import Yadora from "../../../assets/logo.svg";
+import { links } from "../../../utils/constants";
+import hamburger from "../../../assets/hamburger.svg";
 
 function Navigation() {
   return (
@@ -13,6 +13,7 @@ function Navigation() {
             className="inline-block mr-8 h-7"
           />
         </a>
+
         <ul className="inline-flex gap-8 font-medium">
           {links.map((link) => (
             <li key={link}>
@@ -26,7 +27,7 @@ function Navigation() {
           ))}
         </ul>
       </nav>
-      {/* LINKS */}
+
       <div className="lg:flex items-center gap-8 hidden">
         <a
           href="#"
@@ -38,6 +39,7 @@ function Navigation() {
           Get Started
         </button>
       </div>
+
       {/* HAMBURGER */}
       <button className="lg:hidden">
         <img

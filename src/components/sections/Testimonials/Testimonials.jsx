@@ -1,5 +1,5 @@
 import Testimonial from "./Testimonial";
-import { testimonials } from "../../utils/constants";
+import { testimonials } from "../../../utils/constants";
 
 function Testimonials() {
   return (
