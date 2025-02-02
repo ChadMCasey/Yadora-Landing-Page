@@ -18,13 +18,13 @@ const Modal = ({ children, modalName }) => {
   return (
     <div
       className={`fixed px-4 sm:px-16 md:px-24 top-0 left-0 right-0 bottom-0 transition-all duration-300
-         bg-primary-800  z-10 flex items-center justify-center 
+         bg-primary-800  z-10 flex items-center justify-center
          ${displayModal ? "visible bg-opacity-70" : "invisible bg-opacity-0"}`}
       onClick={(e) => e.target === e.currentTarget && handleCloseModal()}
     >
       <div
-        className={`${displayModal ? "visible opacity-100" : "invisible opacity-0"} 
-        relative flex bg-white rounded-2xl text-2xl flex-col transition-all 
+        className={`${displayModal ? "visible opacity-100" : "invisible opacity-0"}
+        relative flex bg-white rounded-2xl text-2xl flex-col transition-all
         duration-300 basis-[41.25rem]`}
       >
         <HiOutlineXMark

@@ -1,5 +1,5 @@
 import { RxCaretRight } from "react-icons/rx";
-import { appStats, appStatsImgs, links } from "../../utils/constants";
+import { appStats, appStatsImgs } from "../../utils/constants";
 
 const AppStatistics = () => {
   return (
@@ -21,6 +21,7 @@ const AppStatistics = () => {
               </p>
               <img
                 key={img.name}
+                alt={img.name}
                 src={img.image}
                 className="rounded-xl md:rounded-2xl"
               />
@@ -48,7 +49,10 @@ const AppStatistics = () => {
               Explore the <br className="sm:block hidden" /> marketplace
             </p>
             <div className="bg-gradient-to-b from-accent-500 to-accent-200 hover:shadow-xl mb-1 xl:mb-2 p-[.125rem] rounded-full">
-              <button className="group flex justify-center items-center bg-gradient-to-t from-accent-500 to-accent-200 rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 transition-all duration-200">
+              <button
+                aria-label="Explore the marketplace"
+                className="group flex justify-center items-center bg-gradient-to-t from-accent-500 to-accent-200 rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 transition-all duration-200"
+              >
                 <RxCaretRight className="group-hover:text-white w-12 h-12 text-primary-500 transition-colors" />
               </button>
             </div>

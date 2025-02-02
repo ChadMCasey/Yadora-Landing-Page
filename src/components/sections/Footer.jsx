@@ -1,5 +1,3 @@
-import { RiFacebookBoxLine } from "react-icons/ri";
-
 import { footerCols, footerSocials } from "../../utils/constants";
 import Yadora from "../../assets/logo.svg";
 
