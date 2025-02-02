@@ -1,6 +1,6 @@
 import dashboardImage from "../../assets/dashboard.webp";
 
-const Dashboard = () => {
+function Dashboard() {
   return (
     <section className="relative">
       <div className="bottom-0 -z-10 absolute bg-primary-500 w-full h-1/2"></div>
@@ -9,6 +9,6 @@ const Dashboard = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Dashboard;

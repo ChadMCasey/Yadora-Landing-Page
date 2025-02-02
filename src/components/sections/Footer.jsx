@@ -1,7 +1,7 @@
 import { footerCols, footerSocials } from "../../utils/constants";
 import Yadora from "../../assets/logo.svg";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="m-auto px-4 sm:px-8 md:px-16 xl:px-24 pt-16 pb-8 sm:pb-12 md:pb-28 max-w-[90rem]">
       <div className="gap-y-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-[2fr_repeat(4,1fr)] grid-rows-3 md:grid-rows-2 xl:grid-rows-1">
@@ -43,6 +43,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

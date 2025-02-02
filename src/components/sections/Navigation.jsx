@@ -2,7 +2,7 @@ import Yadora from "../../assets/logo.svg";
 import { links } from "../../utils/constants";
 import hamburger from "../../assets/hamburger.svg";
 
-const Navigation = () => {
+function Navigation() {
   return (
     <section className="flex justify-between">
       <nav className="flex items-center">
@@ -48,6 +48,6 @@ const Navigation = () => {
       </button>
     </section>
   );
-};
+}
 
 export default Navigation;

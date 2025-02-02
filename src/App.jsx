@@ -1,8 +1,12 @@
-// sections
+// App layout
 import Page from "../src/components/sections/Page";
+
+// Header
 import Header from "../src/components/sections/Header";
 import Navigation from "../src/components/sections/Navigation";
 import Hero from "../src/components/sections/Hero";
+
+// Main
 import Main from "../src/components/sections/Main";
 import Dashboard from "../src/components/sections/Dashboard";
 import AppStatistics from "../src/components/sections/AppStatistics";
@@ -10,6 +14,8 @@ import Features from "../src/components/sections/Features";
 import Pricing from "./components/sections/Pricing";
 import Testimonials from "./components/sections/Testimonials";
 import CTA from "../src/components/sections/CTA";
+
+// Footer
 import Footer from "../src/components/sections/Footer";
 
 // UI

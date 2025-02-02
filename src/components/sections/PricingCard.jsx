@@ -1,6 +1,6 @@
 import { CiCircleCheck } from "react-icons/ci";
 
-const PricingCard = ({ card, paymentPlan }) => {
+function PricingCard({ card, paymentPlan }) {
   const pclass = {
     container: card.primary ? "pb-12 lg:pb-14" : "pb-10 lg:my-2",
     bulletColor: card.primary ? "stroke-accent-500" : "stroke-white",
@@ -74,6 +74,6 @@ const PricingCard = ({ card, paymentPlan }) => {
       </div>
     </div>
   );
-};
+}
 
 export default PricingCard;

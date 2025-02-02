@@ -4,7 +4,7 @@ import Toggle from "../UI/Toggle";
 import PricingCard from "./PricingCard";
 import { pricingCards } from "../../utils/constants";
 
-const Pricing = () => {
+function Pricing() {
   const [paymentPlan, setPaymentPlan] = useState("monthly");
 
   function handlePaymentPlanChange() {
@@ -38,6 +38,6 @@ const Pricing = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Pricing;

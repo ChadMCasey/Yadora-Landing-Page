@@ -1,4 +1,4 @@
-const Toggle = ({ handleToggle, toggleLabel }) => {
+function Toggle({ handleToggle, toggleLabel }) {
   return (
     <label className="block relative justify-between bg-primary-500 rounded-xl w-20 h-10 hover:cursor-pointer">
       <input
@@ -14,6 +14,6 @@ const Toggle = ({ handleToggle, toggleLabel }) => {
       />
     </label>
   );
-};
+}
 
 export default Toggle;

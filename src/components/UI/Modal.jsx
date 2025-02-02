@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { HiOutlineXMark } from "react-icons/hi2";
 import { UseModalContext } from "../../contexts/ModalContext";
 
-const Modal = ({ children, modalName }) => {
+function Modal({ children, modalName }) {
   const { currentModal, setCurrentModal } = UseModalContext();
 
   const displayModal = modalName === currentModal;
@@ -35,6 +35,6 @@ const Modal = ({ children, modalName }) => {
       </div>
     </div>
   );
-};
+}
 
 export default Modal;

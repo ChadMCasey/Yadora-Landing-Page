@@ -1,6 +1,6 @@
 import { reviewImgs } from "../../utils/constants";
 
-const Hero = () => {
+function Hero() {
   return (
     <section className="pt-24 md:pt-28 sm:pb-8 md:pb-16">
       <div className="flex flex-nowrap justify-between md:gap-x-24 lg:gap-x-14">
@@ -42,6 +42,6 @@ const Hero = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Hero;
