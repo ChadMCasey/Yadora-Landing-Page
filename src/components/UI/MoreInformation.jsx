@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { UseModalContext } from "../../contexts/ModalContext";
-
 import Dots from "../../assets/tweleve-dots.svg";
 
 const MoreInformation = () => {
@@ -57,7 +56,7 @@ const MoreInformation = () => {
           onChange={updateInputs}
         />
         <button
-          onClick={() => setCurrentModal("")}
+          onClick={handleSubmit}
           className="top-2 right-2 sm:absolute bg-primary-500 hover:bg-accent-500 px-6 hover:px-8 rounded-2xl sm:h-14 text-base text-white lg:text-lg tracking-tight transition-all duration-200 basis-16"
         >
           Learn More

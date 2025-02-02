@@ -4,27 +4,27 @@ const reviewImgs = [
   {
     id: 1,
     name: "Gabriel Romero",
-    image: new URL("../assets/reviews/img-1.png", import.meta.url),
+    image: new URL("../assets/reviews/img-1.webp", import.meta.url),
   },
   {
     id: 2,
     name: "Sarena Burton",
-    image: new URL("../assets/reviews/img-2.png", import.meta.url),
+    image: new URL("../assets/reviews/img-2.webp", import.meta.url),
   },
   {
     id: 3,
     name: "LaDorian Ray",
-    image: new URL("../assets/reviews/img-3.png", import.meta.url),
+    image: new URL("../assets/reviews/img-3.webp", import.meta.url),
   },
   {
     id: 4,
     name: "Madison Lott",
-    image: new URL("../assets/reviews/img-4.png", import.meta.url),
+    image: new URL("../assets/reviews/img-4.webp", import.meta.url),
   },
   {
     id: 5,
     name: "Shannon Sutton",
-    image: new URL("../assets/reviews/img-5.png", import.meta.url),
+    image: new URL("../assets/reviews/img-5.webp", import.meta.url),
   },
 ];
 
@@ -36,7 +36,7 @@ const appStatsImgs = [
       "I joined Yadora back in 2021 and never looked back. \
      Yadoras ability to connect me with people around the world that share \
       the same passions with me is top tier!",
-    image: new URL("../assets/appStats/img-1.png", import.meta.url),
+    image: new URL("../assets/appStats/img-1.webp", import.meta.url),
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const appStatsImgs = [
     description:
       "Yadora has provided me a platform to showcase my skills, \
     build my community and teach 1000s about the beautiful art of caligraphy",
-    image: new URL("../assets/appStats/img-2.png", import.meta.url),
+    image: new URL("../assets/appStats/img-2.webp", import.meta.url),
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const appStatsImgs = [
     description:
       "After working on and off as a vocal coach for nearly 10 years, i found Yadora. \
     The platform has allowed me to find consistent work for months now!",
-    image: new URL("../assets/appStats/img-3.png", import.meta.url),
+    image: new URL("../assets/appStats/img-3.webp", import.meta.url),
   },
 ];
 
@@ -199,7 +199,10 @@ const testimonials = [
     program: "professional",
     description:
       "Yadora has been pivotal in helping me connect with others that share my same passions!",
-    image: new URL("../assets/testimonials/testimonial-7.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-7.webp",
+      import.meta.url
+    ),
     name: "Maria Sanchez",
     title: "CEO & Founder at Creation LAB's",
   },
@@ -207,7 +210,10 @@ const testimonials = [
     program: "team",
     description:
       "Sharing my skills with clients around the world has never been easier. Very affordable solution for our team.",
-    image: new URL("../assets/testimonials/testimonial-6.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-6.webp",
+      import.meta.url
+    ),
     name: "Nick Ridley",
     title: "Product lead at EducationWave",
   },
@@ -216,7 +222,7 @@ const testimonials = [
     description:
       "I love how easy and intuitive the platform is. Took me less than a day to get up and started!",
     image: new URL(
-      "../assets/testimonials/testimonial-10.png",
+      "../assets/testimonials/testimonial-10.webp",
       import.meta.url
     ),
     name: "Asia Moore",
@@ -226,7 +232,10 @@ const testimonials = [
     program: "personal",
     description:
       "Having access to 50 free fantasy reports per month allows my small business to generate leads each month",
-    image: new URL("../assets/testimonials/testimonial-2.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-2.webp",
+      import.meta.url
+    ),
     name: "Tina Rodriguez",
     title: "Tech lead at GE accelerator",
   },
@@ -234,7 +243,10 @@ const testimonials = [
     program: "team",
     description:
       "The free version of Yadora is generous with its offering and has helped fuel our business to new heights!",
-    image: new URL("../assets/testimonials/testimonial-3.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-3.webp",
+      import.meta.url
+    ),
     name: "Jai Ahuja",
     title: "GForce Labs  trader & Founder",
   },
@@ -242,7 +254,10 @@ const testimonials = [
     program: "team",
     description:
       "Yadora’s Customer service has been very gracious in helping me navigate the platform. Loving it so far!",
-    image: new URL("../assets/testimonials/testimonial-1.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-1.webp",
+      import.meta.url
+    ),
     name: "Amy Young",
     title: "Creative director at FertilityHealth",
   },
@@ -250,7 +265,10 @@ const testimonials = [
     program: "personal",
     description:
       "Getting my music business off the ground has been a breeze with the help of Yadora’s outreach accelerator.",
-    image: new URL("../assets/testimonials/testimonial-5.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-5.webp",
+      import.meta.url
+    ),
     name: "Tanner Hall",
     title: "Musician and Solo-prenuer",
   },
@@ -258,7 +276,10 @@ const testimonials = [
     program: "team",
     description:
       "I wish i have known about this platform a year ago. The AI writer empowers our team to edit and revise their work easily.",
-    image: new URL("../assets/testimonials/testimonial-8.png", import.meta.url),
+    image: new URL(
+      "../assets/testimonials/testimonial-8.webp",
+      import.meta.url
+    ),
     name: "Diego Perez",
     title: "Analyst at SimplyMade",
   },

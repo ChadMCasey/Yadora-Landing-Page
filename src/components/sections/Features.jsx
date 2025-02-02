@@ -27,9 +27,9 @@ const Features = () => {
                 alt={feature.name}
                 className="sm:place-self-start mb-6 w-24 md:w-auto h-24 md:h-auto place-self-center"
               />
-              <h5 className="mb-2 font-bold text-2xl/8 text-primary-500">
+              <h4 className="mb-2 font-bold text-2xl/8 text-primary-500">
                 {feature.name}
-              </h5>
+              </h4>
               <p className="text-primary-500 xl:text-lg tracking-tight">
                 {feature.description}
               </p>

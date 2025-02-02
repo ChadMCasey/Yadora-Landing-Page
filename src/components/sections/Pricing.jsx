@@ -19,7 +19,10 @@ const Pricing = () => {
         </h2>
         <div className="flex items-center gap-x-4">
           <p className="xl:text-lg tracking-tight">Monthly</p>
-          <Toggle handleToggle={handlePaymentPlanChange} />
+          <Toggle
+            handleToggle={handlePaymentPlanChange}
+            toggleLabel="Toggle between monthly and annual plans"
+          />
           <p className="xl:text-lg tracking-tight">Annual</p>
         </div>
 
