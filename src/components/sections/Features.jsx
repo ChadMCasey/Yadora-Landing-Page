@@ -4,7 +4,7 @@ function Features() {
   return (
     <section className="m-auto px-4 sm:px-8 md:px-16 xl:px-24 pt-14 sm:pt-20 md:pt-32 pb-16 md:pb-24 max-w-[90rem]">
       <div className="gap-y-16 md:gap-y-24 grid lg:grid-cols-2">
-        <div className="w-[90%] sm:w-[80%] md:max-w-[75%] xl:max-w-[65%]">
+        <div className="w-[90%] sm:max-w-[80%] md:max-w-[75%] xl:max-w-[65%]">
           <h3 className="mb-2 sm:mb-4 font-bold text-[2rem]/[2.5rem] text-primary-500 sm:text-4xl md:text-5xl xl:text-[3.5rem]/[4rem] tracking-tight">
             Why become a creator?
           </h3>
@@ -19,7 +19,7 @@ function Features() {
         <ul className="justify-items-center sm:justify-items-start gap-x-8 gap-y-12 md:gap-y-20 grid sm:grid-cols-2 sm:grid-rows-2">
           {features.map((feature) => (
             <li
-              className={`${feature.name} w-[80%] xl:w-5/6 text-center sm:text-start tracking-tight`}
+              className="w-[80%] xl:w-5/6 text-center sm:text-start tracking-tight"
               key={feature.id}
             >
               <img

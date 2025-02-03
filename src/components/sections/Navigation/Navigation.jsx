@@ -28,7 +28,7 @@ function Navigation() {
         </ul>
       </nav>
 
-      <div className="lg:flex items-center gap-8 hidden">
+      <nav className="lg:flex items-center gap-8 hidden">
         <a
           href="#"
           className="font-medium text-primary-500 xl:text-lg hover:text-accent-500 transition-all duration-100"
@@ -38,7 +38,7 @@ function Navigation() {
         <button className="bg-primary-500 hover:bg-accent-500 px-8 hover:px-9 py-4 rounded-2xl text-white xl:text-lg transition-all duration-200">
           Get Started
         </button>
-      </div>
+      </nav>
 
       <Hamurger />
     </section>
