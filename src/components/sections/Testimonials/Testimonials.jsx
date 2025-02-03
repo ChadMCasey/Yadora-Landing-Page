@@ -13,11 +13,11 @@ function Testimonials() {
         clients have to say
       </h2>
 
-      {/* TESTIMONIAL ROW 1 */}
       <div className="relative">
         <div className="top-0 left-0 z-10 absolute bg-gradient-to-r from-white to-transparent sm:w-32 xl:w-64 h-full" />
         <div className="top-0 right-0 z-10 absolute bg-gradient-to-l from-white to-transparent sm:w-32 xl:w-64 h-full" />
 
+        {/* TESTIMONIAL ROW 1 */}
         <div className="bg-white mb-4 lg:mb-6 whitespace-nowrap overflow-hidden">
           <div className="inline-block whitespace-nowrap animate-translate-x-reverse">
             {testimonials.slice(0, 4).map((testimonial) => (

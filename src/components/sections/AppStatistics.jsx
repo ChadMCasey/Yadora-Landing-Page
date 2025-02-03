@@ -16,7 +16,7 @@ function AppStatistics() {
         <div className="gap-x-4 gap-y-4 md:gap-x-5 lg:gap-x-7 xl:gap-x-9 grid grid-cols-1 sm:grid-cols-3">
           {appStatsImgs.map((img) => (
             <div className="group relative mx-auto" key={img.id}>
-              <p className="group-hover:visible top-0 bottom-0 left-0 absolute bg-primary-800 bg-opacity-40 opacity-0 group-hover:opacity-100 px-6 py-8 text-sm text-white lg:text-lg tracking-tightright-0 transition-all duration-200 invisible">
+              <p className="group-hover:visible top-0 right-0 bottom-0 left-0 absolute bg-primary-800 bg-opacity-40 opacity-0 group-hover:opacity-100 px-6 py-8 text-sm text-white lg:text-lg tracking-tight transition-all duration-200 invisible">
                 {img.description}
               </p>
               <img
@@ -25,7 +25,7 @@ function AppStatistics() {
                 src={img.image}
                 className="rounded-xl md:rounded-2xl"
               />
-              <p className="bottom-6 md:bottom-8 left-4 md:left-6 absolute bg-white bg-opacity-20 opacity-100 group-hover:opacity-0 backdrop-blur-sm px-2 py-1 rounded-lg lg:font-normal text-sm text-white lg:text-base xl:text-lg transition-all duration-200 group-hover:invisible">
+              <p className="bottom-6 md:bottom-8 left-4 md:left-6 absolute bg-white bg-opacity-20 opacity-100 group-hover:opacity-0 backdrop-blur-sm px-2 py-1 rounded-lg text-sm text-white lg:text-base xl:text-lg transition-all duration-200 group-hover:invisible">
                 {img.name}
               </p>
             </div>
@@ -44,18 +44,16 @@ function AppStatistics() {
               </li>
             ))}
           </ul>
-          <div className="flex items-end sm:items-center gap-4 md:gap-6">
+          <div className="flex items-center sm:items-end gap-4 md:gap-6">
             <p className="text-lg text-white md:text-xl lg:text-2xl xl:text-[2rem]/[2.5rem]">
               Explore the <br className="sm:block hidden" /> marketplace
             </p>
-            <div className="bg-gradient-to-b from-accent-500 to-accent-200 hover:shadow-xl mb-1 xl:mb-2 p-[.125rem] rounded-full">
-              <button
-                aria-label="Explore the marketplace"
-                className="group flex justify-center items-center bg-gradient-to-t from-accent-500 to-accent-200 rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 transition-all duration-200"
-              >
-                <RxCaretRight className="group-hover:text-white w-12 h-12 text-primary-500 transition-colors" />
-              </button>
-            </div>
+            <button
+              aria-label="Explore the marketplace"
+              className="group flex justify-center items-center bg-gradient-to-t from-accent-500 to-accent-200 mb-1 rounded-full w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 transition-all duration-200"
+            >
+              <RxCaretRight className="group-hover:text-white w-12 h-12 text-primary-500 transition-colors" />
+            </button>
           </div>
         </div>
       </div>

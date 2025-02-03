@@ -14,16 +14,16 @@ function Pricing() {
   return (
     <section className="m-auto px-4 sm:px-8 md:px-16 xl:px-24 py-8 max-w-[90rem]">
       <div className="flex flex-col items-center">
-        <h2 className="mb-6 font-bold text-[2rem]/[2.5rem] md:text-5xl xl:text-[3.5rem]/[4rem] tracking-tight">
+        <h2 className="mb-6 font-bold text-[2rem]/[2.5rem] text-primary-500 md:text-5xl xl:text-[3.5rem]/[4rem] tracking-tight">
           Start creating today<span className="text-accent-500">.</span>
         </h2>
         <div className="flex items-center gap-x-4">
-          <p className="xl:text-lg tracking-tight">Monthly</p>
+          <p className="text-primary-500 xl:text-lg tracking-tight">Monthly</p>
           <Toggle
             handleToggle={handlePaymentPlanChange}
             toggleLabel="Toggle between monthly and annual plans"
           />
-          <p className="xl:text-lg tracking-tight">Annual</p>
+          <p className="text-primary-500 xl:text-lg tracking-tight">Annual</p>
         </div>
 
         <div className="gap-x-4 gap-y-4 grid grid-cols-1 pricing-break:grid-cols-2 xl:grid-cols-[32fr_34fr_32fr] my-10 lg:w-4/5 pricing-break:w-full xl:w-full">

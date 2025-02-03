@@ -5,7 +5,7 @@ function PricingCard({ card, paymentPlan }) {
     container: card.primary ? "pb-12 lg:pb-14" : "pb-10 lg:my-2",
     bulletColor: card.primary ? "stroke-accent-500" : "stroke-white",
     cta: card.primary
-      ? "bg-accent-500 from-accent-500 to-accent-200"
+      ? "bg-gradient-to-t bg-accent-500 from-accent-500 to-accent-200"
       : "bg-white",
     ctaWrapper: card.primary
       ? "bg-gradient-to-b from-accent-500 to-accent-200 p-[.125rem] rounded-2xl \
@@ -43,6 +43,7 @@ function PricingCard({ card, paymentPlan }) {
           <div className="top-[30%] left-[30%] absolute bg-gradient-to-l from-white to-transparent opacity-20 blur-2xl rounded-[50%] w-[30rem] h-28 -rotate-45" />
         </>
       )}
+
       <p className="opacity-80 mb-12 px-6 py-2 border rounded-2xl max-w-min text-sm text-white">
         {card.program}
       </p>
@@ -67,7 +68,7 @@ function PricingCard({ card, paymentPlan }) {
       </ul>
       <div className={pclass.ctaWrapper}>
         <button
-          className={`text-primary-500 py-4 w-full rounded-2xl bg-gradient-to-t hover:bg-accent-500 transition-all duration-200 hover:text-white ${pclass.cta}`}
+          className={`text-primary-500 py-4 w-full rounded-2xl  hover:bg-accent-500 transition-all duration-200 hover:text-white ${pclass.cta}`}
         >
           {card.cta}
         </button>
