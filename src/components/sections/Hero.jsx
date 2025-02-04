@@ -33,9 +33,7 @@ function Hero() {
           <div className="lg:flex justify-center items-center hidden xl:mr-8 rounded-full w-52 h-52 outline outline-1 outline-primary-500">
             <div className="flex flex-col justify-center items-center bg-primary-500 rounded-full w-44 h-44">
               <p className="font-bold text-5xl text-white">1:1</p>
-              <p className="font-bold text-ellipsis text-white text-xl">
-                Video calls
-              </p>
+              <p className="font-bold text-white text-xl">Video calls</p>
             </div>
           </div>
         </figure>
