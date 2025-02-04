@@ -3,7 +3,7 @@ import { appStats, appStatsImgs } from "../../utils/constants";
 
 function AppStatistics() {
   return (
-    <section className="bg-primary-500">
+    <section className="bg-primary-500 -mt-[1px]">
       <div className="flex flex-col gap-y-12 sm:gap-y-16 md:gap-y-24 xl:gap-y-28 m-auto px-4 sm:px-8 md:px-16 xl:px-24 pt-10 md:pt-16 pb-16 sm:pb-24 md:pb-32 max-w-[90rem]">
         <div>
           <h2 className="bg-clip-text bg-gradient-to-t from-accent-500 to-accent-200 sm:font-bold text-3xl text-transparent sm:text-4xl md:text-5xl/[3.5rem] lg:text-6xl/[4.6rem] xl:text-7xl/[5.6rem] tracking-tight">
